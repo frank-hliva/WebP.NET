@@ -80,8 +80,8 @@ namespace DemoCSharp
                     Console.WriteLine("Creating the {0} file: {1}", Path.GetFileNameWithoutExtension(path).ToLower(), path);
                     SaveWebP(bitmapImage, path, target.quality);
                 }
-                Process.Start(ImgDir);
                 Console.WriteLine("Opening the directory...");
+                Process.Start(ImgDir);
             }
         }
 
@@ -124,7 +124,6 @@ module WebP =
     let save (path : string) (quality : float32) (source : BitmapSource) =
         use fileStream = new FileStream(path, FileMode.Create)
         WebPEncoder.Encode(source, fileStream, quality)
-        fileStream.Flush()
 
 let (+/) path1 path2 = Path.Combine(path1, path2)
 
