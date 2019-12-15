@@ -16,6 +16,11 @@ open System.Windows.Media.Imaging
 open Media.WebP
 
 module WebP =
+
+    let load (path : string) =
+        use fileStream = new FileStream(path, FileMode.Open)
+        WebPDecoder.Decode(fileStream)
+
     let save (path : string) (quality : float32) (source : BitmapSource) =
         use fileStream = new FileStream(path, FileMode.Create)
         WebPEncoder.Encode(source, fileStream, quality)

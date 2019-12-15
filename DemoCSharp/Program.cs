@@ -13,7 +13,7 @@ namespace DemoCSharp
     {
         static BitmapSource LoadWebP(string path)
         {
-            using (var fileStream = new FileStream(path, FileMode.Create))
+            using (var fileStream = new FileStream(path, FileMode.Open))
             {
                 return WebPDecoder.Decode(fileStream);
             }

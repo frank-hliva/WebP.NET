@@ -8,3 +8,13 @@ C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csprojAss
 C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csproj.CopyComplete
 C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.exe
 C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.pdb
+C:\Pluton\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.exe.config
+C:\Pluton\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.exe
+C:\Pluton\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.pdb
+C:\Pluton\WebP.NET\DemoCSharp\bin\Release\WebP.NET.dll
+C:\Pluton\WebP.NET\DemoCSharp\bin\Release\WebP.NET.pdb
+C:\Pluton\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csprojAssemblyReference.cache
+C:\Pluton\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csproj.CoreCompileInputs.cache
+C:\Pluton\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csproj.CopyComplete
+C:\Pluton\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.exe
+C:\Pluton\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.pdb
