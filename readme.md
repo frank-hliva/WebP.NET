@@ -1,6 +1,6 @@
 # WebP.NET
 
-A WebP.NET is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on an older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library worked only with an outdated WindowsForms [System.Drawing.Bitmap](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap). This Library works with the WPF [System.Windows.Media.BitmapSource](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.imaging.bitmapsource). 
+A WebP.NET is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on the older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library worked only with the outdated WindowsForms [System.Drawing.Bitmap](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap). This Library works with the WPF [System.Windows.Media.BitmapSource](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.imaging.bitmapsource). 
 
 ## Requirements
 
