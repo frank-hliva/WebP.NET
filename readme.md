@@ -41,7 +41,6 @@ namespace DemoCSharp
             using (var fileStream = new FileStream(path, FileMode.Create))
             {
                 WebPEncoder.Encode(source, fileStream, quality);
-                fileStream.Flush();
             }
         }
 
