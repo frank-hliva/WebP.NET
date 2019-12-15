@@ -5,7 +5,7 @@ A Media.WebP is a library for encoding / decoding images in the google [WebP for
 ## Requirements
 
 - .NET framework 4.6.2 or higher
-- libwebp: (libwebp.dll-0.6.0.zip)[https://github.com/frank-hliva/WebP.NET/libwebp.dll-0.6.0.zip]
+- libwebp: [libwebp.dll-0.6.0.zip](/libwebp.dll-0.6.0.zip)
 - [Windows Presentation Foundation (WPF)](https://en.wikipedia.org/wiki/Windows_Presentation_Foundation)
 
 ## License:
