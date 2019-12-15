@@ -1,0 +1,10 @@
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.exe.config
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.exe
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\bin\Release\DemoCSharp.pdb
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\bin\Release\WebP.NET.dll
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\bin\Release\WebP.NET.pdb
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csprojAssemblyReference.cache
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.csproj.CopyComplete
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.exe
+C:\Users\hliva\source\repos\WebP.NET\DemoCSharp\obj\Release\DemoCSharp.pdb
