@@ -1,6 +1,6 @@
 # WebP.NET
 
-A WebP.NET is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on an older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library worked only with an obsolete WindowsForms [System.Drawing.Bitmap](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap). This Library works with the WPF [System.Windows.Media.BitmapSource](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.imaging.bitmapsource). 
+A Media.WebP is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on an older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library works only with an obsolete WindowsForms *System.Drawing.Bitmap*. This Library works with the WPF *System.Windows.Media.BitmapSource*. 
 
 ## Requirements
 
@@ -117,19 +117,12 @@ open System.Windows.Media.Imaging
 open Media.WebP
 
 module WebP =
-
-    let load (path : string) =
-        use fileStream = new FileStream(path, FileMode.Open)
-        WebPDecoder.Decode(fileStream)
-
     let save (path : string) (quality : float32) (source : BitmapSource) =
         use fileStream = new FileStream(path, FileMode.Create)
         WebPEncoder.Encode(source, fileStream, quality)
         fileStream.Flush()
 
 let (+/) path1 path2 = Path.Combine(path1, path2)
-
-let webClient = WebClient()
 
 printfn "Plase wait to creation of webp images ..."
 let imgDir = __SOURCE_DIRECTORY__  +/ "ImgExamples"

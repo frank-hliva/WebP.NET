@@ -26,7 +26,18 @@ module WebP =
         WebPEncoder.Encode(source, fileStream, quality)
         fileStream.Flush()
 
-let (+/) path1 path2 = Path.Combine(path1, path2)
+
+@"c:\Pluton\WebP.NET\ImgExamples\Lossy.webp"
+|> WebP.load
+|> fun x ->
+    let bf = BitmapFrame()
+    use be =
+    
+
+//var backBuffer = new byte[stride * normalizedBitmap.PixelHeight];
+//normalizedBitmap.CopyPixels(backBuffer, stride, 0);
+
+(*let (+/) path1 path2 = Path.Combine(path1, path2)
 
 let webClient = WebClient()
 
@@ -53,4 +64,4 @@ let imgDir = __SOURCE_DIRECTORY__  +/ "ImgExamples"
 |> Async.Parallel
 |> Async.RunSynchronously
 
-imgDir |> Process.Start
+imgDir |> Process.Start*)
