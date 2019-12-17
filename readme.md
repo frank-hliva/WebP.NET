@@ -1,6 +1,6 @@
 # WebP.NET
 
-A Media.WebP is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on an older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library works only with an obsolete WindowsForms *System.Drawing.Bitmap*. This Library works with the WPF *System.Windows.Media.BitmapSource*. 
+A WebP.NET is a library for encoding / decoding images in the google [WebP format](https://en.wikipedia.org/wiki/WebP) to WPF. The Library encapsulates a C++ libwebp. The library is based on the older library [https://github.com/imazen/libwebp-net](https://github.com/imazen/libwebp-net), but that library worked only with the outdated WindowsForms [System.Drawing.Bitmap](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.bitmap). This Library works with the WPF [System.Windows.Media.BitmapSource](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.imaging.bitmapsource). 
 
 ## Requirements
 
@@ -41,7 +41,6 @@ namespace DemoCSharp
             using (var fileStream = new FileStream(path, FileMode.Create))
             {
                 WebPEncoder.Encode(source, fileStream, quality);
-                fileStream.Flush();
             }
         }
 
@@ -81,8 +80,8 @@ namespace DemoCSharp
                     Console.WriteLine("Creating the {0} file: {1}", Path.GetFileNameWithoutExtension(path).ToLower(), path);
                     SaveWebP(bitmapImage, path, target.quality);
                 }
-                Process.Start(ImgDir);
                 Console.WriteLine("Opening the directory...");
+                Process.Start(ImgDir);
             }
         }
 
@@ -120,7 +119,6 @@ module WebP =
     let save (path : string) (quality : float32) (source : BitmapSource) =
         use fileStream = new FileStream(path, FileMode.Create)
         WebPEncoder.Encode(source, fileStream, quality)
-        fileStream.Flush()
 
 let (+/) path1 path2 = Path.Combine(path1, path2)
 
