@@ -1,6 +1,5 @@
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csprojAssemblyReference.cache
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csproj.CoreCompileInputs.cache
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\bin\Debug\WebP.NET.dll
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\bin\Debug\WebP.NET.pdb
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\obj\Debug\WebP.NET.dll
-C:\Users\hliva\source\repos\WebP.NET\WebP.NET\obj\Debug\WebP.NET.pdb
+C:\Pluton\WebP.NET\WebP.NET\bin\Debug\WebP.NET.dll
+C:\Pluton\WebP.NET\WebP.NET\bin\Debug\WebP.NET.pdb
+C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csproj.CoreCompileInputs.cache
+C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.dll
+C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.pdb
