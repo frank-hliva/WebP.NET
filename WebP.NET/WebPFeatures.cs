@@ -52,7 +52,7 @@ namespace Media.WebP
             Format = format;
             Paddings = paddings;
         }
-        public static WebPFeatures From(IntPtr sourcePtr, long length)
+        public static WebPFeatures Create(IntPtr sourcePtr, long length)
         {
             int width = 0, height = 0;
             WebPBitstreamFeatures features = default;
@@ -68,11 +68,11 @@ namespace Media.WebP
             );
         }
 
-        public unsafe static WebPFeatures From(byte[] source)
+        public unsafe static WebPFeatures Create(byte[] source)
         {
             fixed (byte* dataPtr = source)
             {
-                return WebPFeatures.From((IntPtr)dataPtr, source.Length);
+                return WebPFeatures.Create((IntPtr)dataPtr, source.Length);
             }
         }
 
