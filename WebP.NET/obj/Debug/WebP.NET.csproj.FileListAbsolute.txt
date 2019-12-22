@@ -1,5 +1,6 @@
 C:\Pluton\WebP.NET\WebP.NET\bin\Debug\WebP.NET.dll
 C:\Pluton\WebP.NET\WebP.NET\bin\Debug\WebP.NET.pdb
+C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csprojAssemblyReference.cache
+C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csproj.CoreCompileInputs.cache
 C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.dll
 C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.pdb
-C:\Pluton\WebP.NET\WebP.NET\obj\Debug\WebP.NET.csprojAssemblyReference.cache
